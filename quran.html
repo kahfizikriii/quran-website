@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Qur'an Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header animate fade-in-down">
+            <div class="greeting-wrapper">
+                <h1 class="app-title">القرآن الكريم</h1>
+                <h2 id="greeting" class="user-greeting"></h2>
+                <h4>Tiada Henti Tanpa Mengaji Mengejar Ridho Ilahi Rabbi.</h4>
+            </div>
+            <div class="theme-switcher">
+                <span>☀️</span>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+                <span>🌙</span>
+            </div>
+        </header>
+
+        <main>
+            <div class="selection-box animate fade-in-up" style="animation-delay: 200ms;">
+                <select id="surah-select">
+                    <option value="">Memuat daftar surah...</option>
+                </select>
+            </div>
+
+            <div id="loader" class="loader"></div>
+
+            <div id="surah-details">
+            </div>
+        </main>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+
+</body>
+
+</html>
