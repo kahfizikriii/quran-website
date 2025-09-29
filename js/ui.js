@@ -2,7 +2,7 @@
 export function displayGreeting(name) {
   const greetingElement = document.getElementById("greeting");
   if (greetingElement && name) {
-    greetingElement.textContent = `Assalamu'alaikum, ${name}!`;
+    greetingElement.textContent = `Assalamu'alaikum, ${name}!💫`;
   }
 }
 

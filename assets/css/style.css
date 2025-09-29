@@ -88,8 +88,14 @@ body {
 .content-wrapper {
   max-width: 600px;
 }
+.landing-open {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--accent-color);
+  margin-bottom: 0px;
+}
 .landing-title {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--accent-color);
   margin-bottom: 10px;
@@ -139,6 +145,7 @@ body {
     color-mix(in srgb, var(--accent-color) 30%, transparent);
 }
 
+
 /* --- QURAN PAGE STYLES (quran.html) --- */
 .container {
   width: 100%;
@@ -156,10 +163,11 @@ body {
   gap: 15px;
 }
 h1.app-title {
-  font-size: 30px;
-  color: var(--text-color);
-  margin: 0;
+  font-size: 2,7rem;
+  font-weight: 700;
+  margin-bottom: 0px;
 }
+
 h2.user-greeting {
   font-size: 18px;
   font-weight: 400;
