@@ -43,3 +43,4 @@ Proyek ini adalah sebuah aplikasi web yang memungkinkan pengguna untuk membaca A
 ## Kredit
 
 Proyek ini menggunakan data dari API publik yang disediakan oleh [equran.id](https://equran.id/).
+link canva : https://www.canva.com/design/DAG0Udx2fuE/iPaSMvVTzPnJghddGtPCXw/edit?utm_content=DAG0Udx2fuE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
